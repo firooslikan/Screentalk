@@ -1,5 +1,5 @@
 # Screentalk
-![](https://github.com/firooslikan/Screentalk/blob/main/logo.png)
+![](https://github.com/firooslikan/Screentalk/blob/main/screentalk(withouth%20bg)%20smaller.png)
 
 Aplikasi Review Film berbasis Website <br>
 dibuat untuk menyelesaikan projek Basis Data TP 2023/2024
