@@ -30,5 +30,5 @@ Aplikasi review film berbasis web. Screentalk digunakan oleh kamu, pencinta film
 | :-------------------- | :------------ | :-------------------------------- |
 | Zaima Firoos Likan    | G6401221002   | https://github.com/firooslikan    |
 | M. Eljalalludin Rummi | G6401221039   | https://github.com/elrummi        |
-| Ivan Anugerah Kautsar | G6401221112   | https://github.com/   |
-| M. Raihan Zhafran H.  | G6401221124   | https://github.com/      |
+| Ivan Anugerah Kautsar | G6401221112   | https://github.com/Ivanank        |
+| M. Raihan Zhafran H.  | G6401221124   | https://github.com/rzhafranh      |
