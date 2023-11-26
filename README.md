@@ -9,9 +9,7 @@ dibuat untuk menyelesaikan projek Basis Data TP 2023/2024
 ## Daftar Isi
 - [Deskripsi](#deskripsi)
 - [Anggota Kelompok](#anggota-kelompok)
-- [Website]
-- [Dokumentasi Kode]
-- [Dokumentasi Video]
+- [Screenshots]
 - [Laporan]
 
 ---
