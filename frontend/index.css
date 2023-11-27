@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('http://localhost/fonts/custom-font.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+  background: black;
+}
+
+body{
+	margin: 0;
+  	padding: 0;
+  	font-family: 'CustomFont', sans-serif;
+  	background: linear-gradient(360deg, rgba(128, 81, 14, 0.3) 0%, rgba(0, 0, 0, 0) 	100%);
+  	height: 100vh;
+  	overflow: hidden;
+}
+
+.container{
+	position: absolute;
+	text-align: center;
+  	top: 50%;
+  	left:50%;
+  	transform: translate(-50%, -50%);
+  	width: 400px;
+  	border-radius: 10px;
+}
+
+img{
+  	margin-bottom: 24px;
+  	padding: 0 0 20px 0;
+}
+
+.container form{
+	padding: 0 40px;
+  	box-sizing: border-box;
+}
+
+form .txt_field{
+  position: relative;
+  margin-top: 20px;
+  margin-left: -80px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: #FFF1F1;
+  border-radius: 66px;
+  width: 150%;
+  height: 100%;
+}
+
+.txt_field input{
+    color: #B992EC;
+	text-align: center;
+	background: transparent;
+	border: none;
+	margin-top: 15px;
+    font-size: 16px;
+}
+
+.txt_field input::placeholder {
+    color: #B992EC;
+}
+
+p {
+    color: #B992EC;
+    font-weight: bold;
+}
+
+p a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button[type="submit"]{
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus {
+	outline: none;
+}
