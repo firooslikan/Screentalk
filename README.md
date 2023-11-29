@@ -9,7 +9,7 @@ dibuat untuk menyelesaikan projek Basis Data TP 2023/2024
 ## Daftar Isi
 - [Deskripsi](#deskripsi)
 - [Anggota Kelompok](#anggota-kelompok)
-- [Screenshots]
+- [Screenshots](#screenshots)
 - [Laporan]
 
 ---
@@ -30,3 +30,24 @@ Aplikasi review film berbasis web. Screentalk digunakan oleh kamu, pencinta film
 | M. Eljalalludin Rummi | G6401221039   | https://github.com/elrummi        |
 | Ivan Anugerah Kautsar | G6401221112   | https://github.com/Ivanank        |
 | M. Raihan Zhafran H.  | G6401221124   | https://github.com/rzhafranh      |
+
+---
+
+## Screenshots
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="screenshots/Register Page.png"></td>
+      <td><img src="screenshots/Login Page.png"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/Home Page.png"></td>
+      <td><img src="screenshots/Library (empty).png"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/Review.png"></td>
+      <td><img src="screenshots/Library (filled).png"></td>
+    </tr>
+  </tbody>
+</table>
