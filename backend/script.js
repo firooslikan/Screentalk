@@ -6,12 +6,6 @@ $(document).ready(function() {
     });
 });
 
-function validateDate() {
-    var dateEntered = document.getElementById('tanggal_nonton').value;
-
-    return true;
-}
-
 function previewPoster(event) {
     var input = event.target;
     var reader = new FileReader();
