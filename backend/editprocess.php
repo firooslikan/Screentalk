@@ -21,13 +21,13 @@ if (isset($_POST['id_review'])) {
     $isi_review = pg_escape_string($connection, $_POST['isi_review']);
 
     if (!empty($_FILES["poster_film"]["name"])) {
-        $targetDir = "posters/";
+        $targetDir = "assets/";
         $targetFile = $targetDir . basename($_FILES["poster_film"]["name"]);
 
         if (move_uploaded_file($_FILES["poster_film"]["tmp_name"], $targetFile)) {
             $poster_path = $targetFile;
         } else {
-            $poster_path = 'posters/noimage.png';
+            $poster_path = 'assets/noimage.png';
         }
     } else {
         $sql_get_existing_poster = "SELECT poster_film FROM movie WHERE id_movie = (SELECT id_movie FROM moviereview WHERE id_review = '$id_review' AND username = '$username')";
