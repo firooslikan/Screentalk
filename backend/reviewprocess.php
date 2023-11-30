@@ -24,13 +24,13 @@ $date_reviewed = date("Y-m-d");
 
 $username = $_SESSION['username'];
 
-$targetDir = "posters/";
+$targetDir = "assets/";
 $targetFile = $targetDir . basename($_FILES["poster_film"]["name"]);
 
 if (move_uploaded_file($_FILES["poster_film"]["tmp_name"], $targetFile)) {
     $poster_path = $targetFile;
 } else {
-    $poster_path = 'posters/noimage.png';
+    $poster_path = 'assets/noimage.png';
 }
 
 $movie_query = pg_query("INSERT INTO movie (id_movie, judul_film, tahun_rilis, genre_film, sutradara, durasi_film, poster_film) VALUES ('$movie_id', '$movie_name', '$release_year', '$genre', '$director', '$duration', '$poster_path')");
